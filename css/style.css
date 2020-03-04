@@ -6,7 +6,7 @@ nav ul {
 
 .cristo {
   background-color: orange;
-  width: 100px;
+  width: 90px;
   border: 1px solid black;
 }
 
@@ -35,24 +35,45 @@ h1, .pb {
 
 h2 {
   margin: 0;
-}
-
-p {
-  font-size: 23px;
+  font-size: 38px;
+  color: #00004d;
+  font-weight: bold;
 }
 
 .h2g {
   color: gray;
 }
 
+.hb {
+  color: white;
+}
+
+h4 {
+  color: #00004d;
+}
+
+p {
+  font-size: 23px;
+  color: #595959;
+}
+
 a {
   color: #0069ff;
 }
 
-.bottone3 {
+#bottone2 {
+  font-weight: bold;
+  border: 1px solid #0069ff;
+  padding: 5px 10px;
+  border-radius: 5%
+}
+
+#bottone3 {
   background-color: white;
-  border-radius: 10%;
-  padding: 5px; 10px;
+  padding: 8px 8px;
+  border-radius: 6%;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .grigio {
@@ -63,6 +84,10 @@ a {
   width: 180px;
   height: auto;
   padding-left: 50px;
+}
+
+.business {
+  color: gray;
 }
 
 .blu {
@@ -92,4 +117,14 @@ nav li {
   height: 430px;
   background-image: url(../img/sfondino.jpg);
   padding-top: 50px;
+}
+
+/* footer */
+
+footer {
+  background-color: #010e28;
+}
+
+footer li {
+  color: lightgray;
 }
