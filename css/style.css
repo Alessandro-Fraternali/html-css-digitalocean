@@ -1,0 +1,95 @@
+/* REGOLE DI DEBUG */
+
+nav ul {
+  display: inline-block;
+}
+
+.cristo {
+  background-color: orange;
+  width: 100px;
+  border: 1px solid black;
+}
+
+.cristo, .blu {
+  height: 100px;
+}
+
+/* FINE REGOLE DI DEBUG */
+
+/* regole generali */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bastaspazi {
+  padding: 0;
+  margin: 0;
+}
+
+h1, .pb {
+  color: white;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  font-size: 23px;
+}
+
+.h2g {
+  color: gray;
+}
+
+a {
+  color: #0069ff;
+}
+
+.bottone3 {
+  background-color: white;
+  border-radius: 10%;
+  padding: 5px; 10px;
+}
+
+.grigio {
+  background-color: #f3f5f9;
+}
+
+.imaginine {
+  width: 180px;
+  height: auto;
+  padding-left: 50px;
+}
+
+.blu {
+  background-image: url(../img/striscino.png);
+}
+
+/* header */
+/* nav */
+
+nav {
+  position: fixed;
+  z-index: 3;
+  left: 0;
+  top: 0;
+  height: 50px;
+  background-color: white;
+  width: 100%;
+}
+
+nav li {
+  display: inline-block;
+}
+
+/* jumbotron */
+
+.jumbo {
+  height: 430px;
+  background-image: url(../img/sfondino.jpg);
+  padding-top: 50px;
+}
