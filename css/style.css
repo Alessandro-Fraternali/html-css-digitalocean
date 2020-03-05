@@ -12,8 +12,8 @@ nav ul {
 }
 
 .cristino {
-  background-color: green;
-  width: 70px;
+  background-color: white;
+  width: 200px;
   border: 1px solid black;
 }
 
@@ -180,16 +180,6 @@ nav li {
     font-weight: 400;
     display: block;
 }
-.profile-img
-{
-    width: 96px;
-    height: 96px;
-    margin: 0 auto 10px;
-    display: block;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-}
 .need-help
 {
     margin-top: 10px;
@@ -205,6 +195,11 @@ nav li {
   color: #595959;
 }
 
+/* main */
+
+.cristino p{
+  font-size: 16px;
+}
 
 /* prefooter */
 
