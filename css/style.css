@@ -4,18 +4,7 @@ nav ul {
   display: inline-block;
 }
 
-.cristo {
-  background-color: orange;
-  width: 90%;
-  border: 1px solid black;
-  min-height: 100px;
-}
 
-.cristino {
-  background-color: white;
-  width: 200px;
-  border: 1px solid black;
-}
 
 /* FINE REGOLE DI DEBUG */
 
@@ -98,7 +87,10 @@ a {
   background-image: url(../img/striscino.png);
 }
 
+/* fine regole generali */
+
 /* header */
+
 /* nav */
 
 nav {
@@ -126,17 +118,13 @@ nav li {
 
 .form-signin
 {
-    max-width: 330px;
+    max-width: 500px;
     padding: 15px;
     margin: 0 auto;
 }
 .form-signin .form-signin-heading, .form-signin .checkbox
 {
     margin-bottom: 10px;
-}
-.form-signin .checkbox
-{
-    font-weight: normal;
 }
 .form-signin .form-control
 {
@@ -172,6 +160,7 @@ nav li {
     -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    width: 500px;
 }
 .login-title
 {
@@ -189,16 +178,73 @@ nav li {
     display: block;
     margin-top: 10px;
 }
-
 .btn-white {
   background-color: white;
   color: #595959;
 }
 
+.btn-white i {
+  margin-left: -140px;
+  margin-right: 120px;
+}
+
+.login h2 {
+  text-align: center;
+  margin:auto;
+  font-size: 22px;
+}
+
+.login a {
+  font-size: 20px;
+  text-align: center;
+}
+
+.loginp, .loginp a {
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 0;
+}
+
+.loginp {
+  margin-top: 10px;
+}
+
+.centrato {
+  text-align: center;
+}
+
+#started {
+  padding-left: 170px;
+}
+
 /* main */
+
+/* elenco */
+
+.bordosx {
+  border-left: 1px solid dimgrey;
+}
 
 .cristino p{
   font-size: 16px;
+}
+
+/* tabella blu */
+
+.tabruttta {
+  display: inline-block;
+}
+
+.hb tr:not(:last-child) {
+  border-bottom: 1px solid white;
+}
+
+.hb strong {
+  padding-right: 50px;
+}
+
+.hb a {
+  padding-left: 200px;
 }
 
 /* prefooter */
