@@ -30,60 +30,79 @@
 
     <title>CiaoBoolean</title>
   </head>
+
   <body>
     <header>
 
       <!-- nav fixed e jumbotron -->
 
-      <nav>
-        <a href="#"><img src="img/loghino.jpg" alt=""></a>
+        <nav>
+          <div class="row">
+            <div class="col-xs-offset-1 col-xs-1 col-lg-offset-1 col-lg-1">
+              <a href="#"><img src="img/loghino.jpg" alt=""></a>
+            </div>
+            <div class="hidden-lg col-xs-offset-8 col-xs-1">
+              <img src="img/burger.png" alt="">
+            </div>
+            <div class="col-lg-offset-2 col-lg-3 hidden-md hidden-sm hidden-xs">
+              <ul>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Customers</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Pricing</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-offset-2 col-lg-3 hidden-md hidden-sm hidden-xs">
+              <ul>
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#" id="bottone2">Sing Up</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
 
-        <ul>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Customers</a></li>
-          <li><a href="#">Community</a></li>
-          <li><a href="#">Pricing</a></li>
-        </ul>
-
-        <ul>
-          <li><a href="#">Docs</a></li>
-          <li><a href="#">Support</a></li>
-          <li><a href="#">Login</a></li>
-          <li><a href="#" id="bottone2">Sing Up</a></li>
-        </ul>
-
-      </nav>
 
       <div class="jumbo">
-
-        <h1>The simplest cloud platform for develpoers & teams</h1>
-
-        <p class="pb">Deploy, manage, and scale cloud applications faster and more efficently on DigitalOcean. We make mangiare infrastructure easy for teams and businesses, whether you're running one virtual macchinina or ten thousand.</p>
-
-        <div class="container">
-          <div class="row">
-              <div class="col-sm-6 col-md-4 col-md-offset-4">
-                <div class="account-wall">
-                    <div class="login">
-                      <h2>Deploy your app in seconds.</h2>
-                      <a href="#" id="started">Get started now.</a>
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="row">
+              <div class="col-xs-offset-1 col-xs-10 col-lg-6">
+                <h1>The simplest cloud platform for develpoers & teams</h1>
+                <p class="pb">Deploy, manage, and scale cloud applications faster and more efficently on DigitalOcean. We make mangiare infrastructure easy for teams and businesses, whether you're running one virtual macchinina or ten thousand.</p>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="container">
+              <div class="row">
+                  <div class="col-xs-offset-1 col-xs-10 col-md-2 col-md-offset-4 col-lg-offset-0 col-lg-1">
+                    <div class="account-wall">
+                        <div class="login">
+                          <h2>Deploy your app in seconds.</h2>
+                          <a href="#" id="started">Get started now.</a>
+                        </div>
+                      <form class="form-signin">
+                      <input type="text" class="form-control" placeholder="Email" required autofocus>
+                      <br>
+                      <input type="password" class="form-control" placeholder="Password" required>
+                      <button class="btn btn-lg btn-primary btn-block" type="submit">Create your account</button>
+                      <button class="btn btn-lg btn-primary btn-block btn-white" type="submit"><i class="fab fa-google"></i>Sign up with Google</button>
+                      <div class="centrato">
+                        <p class="loginp">By signing up you agree to the <a href="#" class="pull-right need-help">Terms of Service</a></p>.
+                        <span class="clearfix"></span>
+                      </div>
+                      </form>
                     </div>
-                  <form class="form-signin">
-                  <input type="text" class="form-control" placeholder="Email" required autofocus>
-                  <br>
-                  <input type="password" class="form-control" placeholder="Password" required>
-                  <button class="btn btn-lg btn-primary btn-block" type="submit">Create your account</button>
-                  <button class="btn btn-lg btn-primary btn-block btn-white" type="submit"><i class="fab fa-google"></i>Sign up with Google</button>
-                  <div class="centrato">
-                    <p class="loginp">By signing up you agree to the <a href="#" class="pull-right need-help">Terms of Service</a></p>.
-                    <span class="clearfix"></span>
                   </div>
-                  </form>
                 </div>
               </div>
+            </div>
           </div>
+        </div>
       </div>
-      </div>
+
     </header>
 
     <!-- main -->
@@ -95,245 +114,305 @@
       <div class="container-fluid bastaspazi">
         <article class="grigio">
           <h3 class="h2g bastaspazi">INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h3>
-
-          <img src="img/docker.png" alt="" class="imaginine">
-          <img src="img/gitlab.png" alt="" class="imaginine">
-          <img src="img/slack.png" alt="" class="imaginine">
-          <img src="img/hashicorp.png" alt="" class="imaginine">
-          <img src="img/hashicorp.png" alt="" class="imaginine">
-          <img src="img/splunk.png" alt="" class="imaginine">
-
-          <a href="#">View customers stories ></a>
-
+          <div class="imgnine">
+            <img src="img/docker.png" alt="" class="imaginine">
+            <img src="img/gitlab.png" alt="" class="imaginine">
+            <img src="img/slack.png" alt="" class="imaginine">
+            <img src="img/hashicorp.png" alt="" class="imaginine">
+            <img src="img/hashicorp.png" alt="" class="imaginine">
+            <img src="img/splunk.png" alt="" class="imaginine">
+          </div>
+          <div class="row">
+            <div class="col-xs-offset-5 col-xs-6">
+              <a href="#">View customers stories ></a>
+            </div>
+          </div>
         </article>
-
         <section>
-
-          <h2>Deploy and scale seamlessly</h2>
-
-          <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
-
-          <div class="cristo">
-
-            <div class="elenco">
-              <ul class="bordosx">
-                <li>Deploy</li>
-                <li>Manage</li>
-                <li>Secure</li>
-                <li>Scale</li>
-                <li>Monitor</li>
-              </ul>
+          <div class="row">
+            <div class="col-xs-12 centrato">
+              <h2>Deploy and scale seamlessly</h2>
             </div>
-
-            <div class="cristo">
-              <div class="cristino">
-                <img src="img/ritogoccia.png" alt="">
-                <h4>Cluster deployments</h4>
-                <p>Provision multiple Droplets (virtual machines) in seconds with our control panel,CLI, or directly against our API.</p>
+            <div class="col-xs-offset-1 col-xs-10 centrato">
+              <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+            </div>
+            <div class="col-xs-offset-1 col-xs-11">
+              <div class="elenco">
+                <ul class="bordosx">
+                  <li>Deploy</li>
+                  <li>Manage</li>
+                  <li>Secure</li>
+                  <li>Scale</li>
+                  <li>Monitor</li>
+                </ul>
               </div>
-
-              <div class="cristino">
-                <img src="img/goccia.png" alt="">
-                <h4>Optimized compute types</h4>
-                <p>Get the compute resources you need with Standard or Optimized Droplets.</p>
-              </div>
-
-              <div class="cristino">
-                <img src="img/cosopiu.png" alt="">
-                <h4>One-click apps</h4>
-                <p>Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
-              </div>
-
-              <div class="cristino">
-                <img src="img/mondino.png" alt="">
-                <h4>Global availability</h4>
-                <p>Deploy to any of oyr data center regions around the world.</p>
+              <div class="col-xs-12 cristo">
+                <div class="cristino">
+                  <img src="img/ritogoccia.png" alt="">
+                  <h4>Cluster deployments</h4>
+                  <p>Provision multiple Droplets (virtual machines) in seconds with our control panel,CLI, or directly against our API.</p>
+                </div>
+                <div class="cristino">
+                  <img src="img/goccia.png" alt="">
+                  <h4>Optimized compute types</h4>
+                  <p>Get the compute resources you need with Standard or Optimized Droplets.</p>
+                </div>
+                <div class="cristino">
+                  <img src="img/cosopiu.png" alt="">
+                  <h4>One-click apps</h4>
+                  <p>Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
+                </div>
+                <div class="cristino">
+                  <img src="img/mondino.png" alt="">
+                  <h4>Global availability</h4>
+                  <p>Deploy to any of oyr data center regions around the world.</p>
+                </div>
+                <br><br>
               </div>
             </div>
-
           </div>
         </section>
 
         <!-- grigio 2 e sezione 2 -->
 
         <article class="grigio">
-
-          <h2>Designed for developers</h2>
-
-          <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
-
-          <div class="cristo">
-            <i class="fas fa-chevron-left"></i>
-            <img src="img/kubernetes.jpg" alt="">
-            <i class="fas fa-chevron-right"></i>
+          <div class="row">
+            <div class="col-xs-12 col-md-offset-1 col-md-10 centrato">
+              <h2>Designed for developers</h2>
+            </div>
+            <div class="col-xs-12 centrato">
+              <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
+            </div>
+            <div class="row">
+              <div class="col-xs-1">
+                <i class="fas fa-chevron-left"></i>
+              </div>
+              <div class="col-xs-10">
+                <img src="img/kubernetes.jpg" alt="" id="kubernetes">
+              </div>
+              <div class="col-xs-1">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
             <div class="">
-              Use Kuernetes to improve availability, scalability, and resource efficiency of your containerized applications.
+              <p class="pblu">Create compute servers in 55 seconds or less.</p>
             </div>
           </div>
-
+          <div class="col-xs-12 pallini">
+            <div class="pallino"></div>
+            <div class="pallino"></div>
+            <div class="pallino"></div>
+            <div class="pallino"></div>
+          </div>
         </article>
-
         <section>
-
-          <h2>The features your businesses needs</h2>
-
-          <div class="business">
-            <img src="img/iconcina1.png" alt="">
-            <h4>Predictable pricing</h4>
-            Leave complex pricing structures behind. Always know what you'll pay per month with a flat, industry-leading pricing structure.
-            <a href="#">Pricing ></a>
+          <h2 class="centrato">The features your businesses needs</h2>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="business">
+                <div class="">
+                  <img src="img/iconcina1.png" alt="">
+                </div>
+                <div class="">
+                  <h4>Predictable pricing</h4>
+                </div>
+                <div class="">
+                  Leave complex pricing structures behind. Always know what you'll pay per month with a flat, industry-leading pricing structure.
+                </div>
+                <div class="">
+                  <a href="#">Pricing ></a>
+                </div>
+              </div>
+            </div>
           </div>
-
-          <div class="business">
-            <img src="img/iconcina2.png" alt="">
-            <h4>World-class service</h4>
-            Free round-the-clock technical support for all customers. You'll feel the Party Mage.
-            <a href="#">Support ></a>
+          <br>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="business">
+                <div class="">
+                  <img src="img/iconcina2.png" alt="">
+                </div>
+                <div class="">
+                  <h4>World-class service</h4>
+                </div>
+                <div class="">
+                  Free round-the-clock technical support for all customers. You'll feel the Party Mage.
+                </div>
+                <div class="">
+                  <a href="#">Pricing ></a>
+                </div>
+              </div>
+            </div>
           </div>
-
-          <div class="business">
-            <img src="img/iconcina3.png" alt="">
-            <h4>Reliable platform</h4>
-            More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99,99% uptime SLA for all services.
-            <a href="#">Security ></a>
+          <br>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="business">
+                  <img src="img/iconcina3.png" alt="">
+                </div>
+                <div class="">
+                  <h4>Reliable platform</h4>
+                </div>
+                <div class="">
+                  More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99,99% uptime SLA for all services.
+                </div>
+                <div class="">
+                  <a href="#">Pricing ></a>
+                </div>
+              </div>
+            </div>
           </div>
-
+          <br><br><br>
         </section>
 
-        <!-- coso blu a cui darò un nome più avanti -->
+        <!-- coso blu con tabella -->
 
         <article class="blu">
-
-          <h2 class="hb">Service your customers around the world from 12 regions.</h2>
-
-          <div class="hb">
-            <div class="tabrutta">
-              <table>
-                <tr>
-                  <td><strong>KTM2</strong></td>
-                  <td>Gerusalemme, kittemmuort</td>
-                  <td class="nobordo"><a href="#">Test speed ></a></td>
-                </tr>
-                <tr>
-                  <td><strong>AMS2</strong></td>
-                  <td>Bangulindo, schiribibbo</td>
-                  <td class="nobordo"><a href="#">Test speed ></a></td>
-                </tr>
-                <tr>
-                  <td><strong>AMS2</strong></td>
-                  <td>Miyamoto, Musashi</td>
-                  <td class="nobordo"><a href="#">Test speed ></a></td>
-                </tr>
-                <tr>
-                  <td><strong>AMS2</strong></td>
-                  <td>Pesca lacarpa, Magna latrota</td>
-                  <td><a href="#">Test speed ></a></td>
-                </tr>
-                <tr>
-                  <td><strong>AMS2</strong></td>
-                  <td>Nel dubbio, daglielo in</td>
-                  <td><a href="#">Test speed ></a></td>
-                </tr>
-                <tr>
-                  <td><strong>AMS2</strong></td>
-                  <td>Mano, che tanto non cade</td>
-                  <td><a href="#">Test speed ></a></td>
-                </tr>
-                <tr>
-                  <td><strong>AMS2</strong></td>
-                  <td>La vita è un biscotto, ma se piove si scioglie</td>
-                  <td><a href="#">Test speed ></a></td>
-                </tr>
-              </table>
+          <h2 class="hb centrato">Service your customers around the world from 12 regions.</h2>
+          <br>
+            <div class="row">
+              <div class="col-xs-12 col-lg-offset-1 col-lg-5 hb tabrutta">
+                <table>
+                  <tr>
+                    <td><strong>KTM2</strong></td>
+                    <td>Gerusalemme, kittemmuort</td>
+                    <td><a href="#">Test speed ></a></td>
+                  </tr>
+                  <tr>
+                    <td><strong>AMS2</strong></td>
+                    <td>Bangulindo, schiribibbo</td>
+                    <td><a href="#">Test speed ></a></td>
+                  </tr>
+                  <tr>
+                    <td><strong>AMS2</strong></td>
+                    <td>Miyamoto, Musashi</td>
+                    <td><a href="#">Test speed ></a></td>
+                  </tr>
+                  <tr>
+                    <td><strong>AMS2</strong></td>
+                    <td>Pesca lacarpa, Magna latrota</td>
+                    <td><a href="#">Test speed ></a></td>
+                  </tr>
+                  <tr>
+                    <td><strong>AMS2</strong></td>
+                    <td>Nel dubbio, daglielo in</td>
+                    <td><a href="#">Test speed ></a></td>
+                  </tr>
+                  <tr>
+                    <td><strong>AMS2</strong></td>
+                    <td>Mano, che tanto non cade</td>
+                    <td><a href="#">Test speed ></a></td>
+                  </tr>
+                  <tr>
+                    <td><strong>AMS2</strong></td>
+                    <td>Salerno, Reggio-Calabria</td>
+                    <td><a href="#">Test speed ></a></td>
+                  </tr>
+                </table>
+              </div>
             </div>
-
-            <div class="tabrutta">
-              <table>
-                <tr>
-                  <td><strong>AMS2</strong></td>
-                  <td>SANDOKAAAN, SANDOKAAAN</td>
-                  <td class="nobordo"><a href="#">Test speed ></a></td>
-                </tr>
-                <tr>
-                  <td><strong>AMS2</strong></td>
-                  <td>Termosifone, geloso</td>
-                  <td class="nobordo"><a href="#">Test speed ></a></td>
-                </tr>
-                <tr>
-                  <td><strong>AMS2</strong></td>
-                  <td>Saccagnate, Neidenti</td>
-                  <td class="nobordo"><a href="#">Test speed ></a></td>
-                </tr>
-                <tr>
-                  <td><strong>AMS2</strong></td>
-                  <td>Melaecannella, Besttea</td>
-                  <td><a href="#">Test speed ></a></td>
-                </tr>
-                <tr>
-                  <td><strong>AMS2</strong></td>
-                  <td>Deus, Vult</td>
-                  <td><a href="#">Test speed ></a></td>
-                </tr>
-                <tr>
-                  <td><strong>AMS2</strong></td>
-                  <td>Saltatorecinese, Cinciampai</td>
-                  <td><a href="#">Test speed ></a></td>
-                </tr>
-                <tr>
-                  <td><strong>AMS2</strong></td>
-                  <td>Labibbia, bestfantasy</td>
-                  <td><a href="#">Test speed ></a></td>
-                </tr>
-              </table>
+            <div class="row">
+              <div class="col-xs-12 col-lg-5">
+                <div class="hb tabrutta">
+                  <table>
+                    <tr>
+                      <td><strong>AMS2</strong></td>
+                      <td>Salessi, manabressi</td>
+                      <td><a href="#">Test speed ></a></td>
+                    </tr>
+                    <tr>
+                      <td><strong>AMS2</strong></td>
+                      <td>Termosifone, geloso</td>
+                      <td><a href="#">Test speed ></a></td>
+                    </tr>
+                    <tr>
+                      <td><strong>AMS2</strong></td>
+                      <td>Saccagnate, Neidenti</td>
+                      <td><a href="#">Test speed ></a></td>
+                    </tr>
+                    <tr>
+                      <td><strong>AMS2</strong></td>
+                      <td>Melaecannella, Besttea</td>
+                      <td><a href="#">Test speed ></a></td>
+                    </tr>
+                    <tr>
+                      <td><strong>AMS2</strong></td>
+                      <td>Deus, Vult</td>
+                      <td><a href="#">Test speed ></a></td>
+                    </tr>
+                    <tr>
+                      <td><strong>AMS2</strong></td>
+                      <td>Saltatorecinese, Cinciampai</td>
+                      <td><a href="#">Test speed ></a></td>
+                    </tr>
+                    <tr>
+                      <td><strong>AMS2</strong></td>
+                      <td>Labibbia, bestfantasy</td>
+                      <td><a href="#">Test speed ></a></td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
             </div>
-
           </div>
-
         </article>
 
         <!-- grigio 3 -->
 
         <article class="grigio">
-
-          <h2>Development teams love DigitalOcean</h2>
-
-          <div class="cristo">
-            <i class="fas fa-chevron-left"></i>
-            <img src="img/rockerbox.png" alt="">
-            <i class="fas fa-chevron-right"></i>
+          <div class="row">
+            <div class="xol-xs-12">
+              <h2 class="centrato">Development teams love DigitalOcean</h2>
+            </div>
           </div>
-
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12 centrato">
+                <img src="img/rockerbox.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 pallini">
+            <div class="pallino"></div>
+            <div class="pallino"></div>
+            <div class="pallino"></div>
+          </div>
         </article>
 
         <!-- blu pre footer -->
 
         <article class="blu prefooter">
-
-          <h2 class="hb">Get started now.</h2>
-
-          <a href="#" id="bottone3">Create your account</a>
-
+          <br>
+          <div class="row">
+            <div class="col-xs-12 centrato">
+              <h2 class="hb">Get started now.</h2>
+            </div>
+            <br><br>
+            <div class="col-xs-12 centrato">
+              <a href="#" id="bottone3">Create your account</a>
+            </div>
+          </div>
         </article>
 
         <!-- footer -->
 
         <footer>
-
-          <div class="">
-            <ul>
-              <li><img src="img/loghetto.png" alt=""></li>
-              <li>@ 2018 DigitalOcean. LLC. All rights reserved.</li>
-              <li>Proudly made in CASA MIA</li>
-              <li><i class="fab fa-twitter"></i>
-              <i class="fab fa-facebook"></i>
-              <i class="fab fa-instagram"></i>
-              <i class="fab fa-youtube"></i>
-              <i class="fab fa-linkedin"></i></li>
-            </ul>
+          <br><br>
+          <div class="row">
+            <div class="col-xs-12">
+              <ul>
+                <li><img src="img/loghetto.png" alt=""></li>
+                <li>@ 2018 DigitalOcean. LLC. All rights reserved.</li>
+                <li>Proudly made in CASA MIA</li>
+                <li><i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-linkedin"></i></li>
+              </ul>
+            </div>
           </div>
-
-          <div class="">
-
+          <div class="col-xs-12 col-md-4">
             <h4 class="hb">Company</h4>
             <li>About</li>
             <li>Leadership</li>
@@ -346,8 +425,7 @@
             <li>Press</li>
             <li>Legal & Security</li>
           </div>
-
-          <div class="">
+          <div class="col-xs-12 col-md-4">
             <h4 class="hb">Products</h4>
             <li>Droplets</li>
             <li>Spaces</li>
@@ -361,8 +439,7 @@
             <li>Documentation</li>
             <li>Release Notes</li>
           </div>
-
-          <div class="">
+          <div class="col-xs-12">
             <h4 class="hb">Community</h4>
             <li>Tutorials</li>
             <li>Meetups</li>
@@ -375,14 +452,12 @@
             <li>Currents Research</li>
             <li>Open Source</li>
           </div>
-
           <div class="">
             <h4 class="hb">Support</h4>
             <li>Contact Support</li>
             <li>FAQ</li>
             <li>Network Status</li>
           </div>
-
         </footer>
       </div>
 
