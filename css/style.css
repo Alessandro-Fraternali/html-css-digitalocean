@@ -206,11 +206,40 @@ nav a:hover{
   text-align: center;
 }
 
+/* carousel */
+
+.carouselsection{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.freccia{
+  font-size: 80px;
+  font-weight: bolder;
+}
+
 .carousel {
   width: 800px;
   height: 500px;
-  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.carousel img{
+  height: 100%;
+  width: 100%;
+  display: none;
+  padding: 3px;
+}
+
+.carousel .active{
+  display: block;
+}
+
+/* endcarousel */
 
 /* regole sezioneinfo */
 .sezioneinfo{
@@ -284,7 +313,7 @@ table a:hover{
 /* regole prefooter */
 .prefooter{
   background-color: white;
-  height: 150px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
